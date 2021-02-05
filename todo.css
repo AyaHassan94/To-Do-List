@@ -1,0 +1,95 @@
+/*h1 {
+  color: aliceblue;
+  margin-top: 0px;
+}
+#add {
+  display: inline-block;
+}
+input {
+  width: 320px;
+  height: 45px;
+  font-size: large;
+  color: black;
+  border-radius: 20px;
+}
+.container {
+  background-color: chocolate;
+  text-align: center;
+}
+.div {
+  width: 50%;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 20px 0px;
+}
+.todo {
+  background-color: coral;
+  color: azure;
+}
+.completed {
+  background-color: cornflowerblue;
+  width: 30px;
+}
+h2 {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}*/
+h1 {
+  color: #4d494b;
+  margin-top: 0px;
+}
+
+#add {
+  display: inline-block;
+  position: absolute;
+}
+
+input {
+  width: 315px;
+  height: 40px;
+  border-radius: 25px;
+  /*box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.19);*/
+  font-size: large;
+  color: black;
+  border-color: #d5e3e6;
+}
+
+.container {
+  background-color: chocolate;
+  text-align: center;
+}
+
+.div {
+  border-radius: 10px;
+  padding: 20px 0px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.todo {
+  background-color: blue;
+  color: wheat;
+}
+
+h2 {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.completed {
+  background-color: #74af8d;
+}
+
+.completedImage,
+#deletedImage {
+  cursor: pointer;
+  margin-right: 30px;
+  width: 30px;
+}
+#todo-list {
+  color: wheat;
+}
